@@ -10,8 +10,8 @@ from threading import Thread
 import multiprocessing
 import queue
 import asyncio
-api_id = 27661056
-api_hash = '05d76b5fcac4ddddfb991156ce033e1a'
+api_id = id
+api_hash = 'hash'
 
 def run_scheduler():
     while True:
@@ -52,7 +52,7 @@ channels = [
     -1001223136500,
     -1002053630479]
 
-token = '7090335545:AAFYAlngM8KnVGCPtKjQk1IULgFQX3HzFGw'
+token = 'bot_token'
 
 def worker_main():
     while 1:
